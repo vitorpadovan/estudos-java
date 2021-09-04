@@ -8,6 +8,7 @@ public class VitorEstudosApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(VitorEstudosApplication.class, args);
+		System.out.println("erro");
 	}
 
 }
