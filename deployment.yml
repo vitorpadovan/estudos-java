@@ -1,0 +1,19 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: vitor_estudos
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: vitor_estudos
+    spec:
+      containers:
+      - name: vitor_estudos
+        image: registry.gitlab.com/vitorpadovan/estudos-java
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8080
+      imagePullSecrets:
+        - name: registry.gitlab.com
