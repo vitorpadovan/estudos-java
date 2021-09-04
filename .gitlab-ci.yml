@@ -15,20 +15,19 @@
 
 stages:          # List of stages for jobs, and their order of execution
   - build
-  - package
   - test
   - deploy
   
-package-job:       # This job runs in the build stage, which runs first.
-  stage: package
-  script:
-    - 'mvn package'    
 
 build-job:       # This job runs in the build stage, which runs first.
   stage: build
   script:
     - echo "Compiling the code..."
     - echo "Compile complete."
+    - "mvn package -M"
+  artifacts:
+    paths:
+      - target/*.jar
 
 unit-test-job:   # This job runs in the test stage.
   stage: test    # It only starts when the job in the build stage completes successfully.
