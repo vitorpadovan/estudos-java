@@ -15,9 +15,12 @@
 
 image: maven:latest
 
+variables:
+  MAVEN_CLI_OPTS: "-s .m2/settings.xml --batch-mode"
+  MAVEN_OPTS: "-Dmaven.repo.local=.m2/repository"
+
+
 stages:          # List of stages for jobs, and their order of execution
-  - build
-  - test
   - deploy
   
 
@@ -42,6 +45,6 @@ lint-test-job:   # This job also runs in the test stage.
 deploy-job:      # This job runs in the deploy stage.
   stage: deploy  # It only runs when *both* jobs in the test stage complete successfully.
   script:
-    - "mvn clean compile tomcat7:undeploy tomcat7:deploy -s ci_settings.xml"
+    - mvn $MAVEN_CLI_OPTS deploy
     - echo "Deploying application..."
     - echo "Application successfully deployed."
