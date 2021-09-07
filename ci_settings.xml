@@ -3,8 +3,8 @@
     <servers>
         <server>
             <id>TomcatServer</id>
-            <username>$V_USERNAME</username>
-            <password>$V_PASSWORD</password>
+            <username>vitor</username>
+            <password>vitor237</password>
         </server>
     </servers>
 </settings>
