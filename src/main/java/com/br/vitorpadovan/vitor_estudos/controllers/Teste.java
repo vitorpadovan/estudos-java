@@ -10,11 +10,11 @@ public class Teste {
 	
 	@GetMapping("/teste")
 	public String teste() {
-		return "Testando 4";
+		return "CD/CI Completo";
 	}
 	
 	@GetMapping("/")
 	public String teste2() {
-		return "Testando 4";
+		return "CD/CI Completo";
 	}
 }
