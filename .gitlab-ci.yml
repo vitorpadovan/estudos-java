@@ -42,6 +42,6 @@ lint-test-job:   # This job also runs in the test stage.
 deploy-job:      # This job runs in the deploy stage.
   stage: deploy  # It only runs when *both* jobs in the test stage complete successfully.
   script:
-    - "mvn clean compile tomcat7:undeploy tomcat7:deploy"
+    - "mvn clean compile tomcat7:undeploy tomcat7:deploy -s ci_settings.xml"
     - echo "Deploying application..."
     - echo "Application successfully deployed."
