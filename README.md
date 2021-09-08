@@ -5,3 +5,4 @@
 - [Apache Tomcat Debian](https://www.digitalocean.com/community/tutorials/how-to-install-apache-tomcat-9-on-debian-10-pt)
 - [Deploy Spring Tomcat](https://www.baeldung.com/spring-boot-war-tomcat-deploy)
 - [Deploy a Spring Boot WAR into a Tomcat Server](https://www.baeldung.com/spring-boot-war-tomcat-deploy)
+- [How to deploy Maven projects to Artifactory with GitLab CI/CD](http://www.obsis.unb.br/gitlab/help/ci/examples/artifactory_and_gitlab/index.md)
