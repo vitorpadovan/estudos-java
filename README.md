@@ -1,6 +1,7 @@
 # Estudos Java Vitor Padovan
+## Descrição do projeto
+Este projeto tem como objetivo ser usado como aprendizado para novos estudos relacionados a Java.
 
-[TOCM]
 
 [TOC]
 
