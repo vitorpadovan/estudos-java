@@ -2,6 +2,8 @@
 
 [TOCM]
 
+[TOC]
+
 ## Conhecimentos aplicados
 - Gitlab CD/CI c/ Java Spring Boot
 
