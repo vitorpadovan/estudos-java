@@ -15,6 +15,7 @@ Este projeto tem como objetivo ser usado como aprendizado para novos estudos rel
 
 ## Intenções de estudos
 - Wildfly
+- Liquibase
 - JUnit
 - Jboss
 - Docker / Kubernetes
@@ -32,3 +33,6 @@ Este projeto tem como objetivo ser usado como aprendizado para novos estudos rel
 - [Deploy Spring Tomcat](https://www.baeldung.com/spring-boot-war-tomcat-deploy)
 - [Deploy a Spring Boot WAR into a Tomcat Server](https://www.baeldung.com/spring-boot-war-tomcat-deploy)
 - [How to deploy Maven projects to Artifactory with GitLab CI/CD](http://www.obsis.unb.br/gitlab/help/ci/examples/artifactory_and_gitlab/index.md)
+
+## Links interessantes
+- [CI/CD + Liquibase](https://www.infoq.com/br/articles/construindo-pipeline-ci-cd-liquibase-no-gitlab/)
