@@ -32,8 +32,10 @@ Este projeto tem como objetivo ser usado como aprendizado para novos estudos rel
 - [Deploy a Spring Boot WAR into a Tomcat Server](https://www.baeldung.com/spring-boot-war-tomcat-deploy)
 - [How to deploy Maven projects to Artifactory with GitLab CI/CD](http://www.obsis.unb.br/gitlab/help/ci/examples/artifactory_and_gitlab/index.md)
 
-### Links interessantes
+### Itens de interesse
 - [CI/CD + Liquibase](https://www.infoq.com/br/articles/construindo-pipeline-ci-cd-liquibase-no-gitlab/)
+- [Travis CI](https://www.travis-ci.com/)
+- [DocToc](https://github.com/thlorenz/doctoc)
 
 ## Ferramentas
 - [Editor README.md](https://dillinger.io/)
