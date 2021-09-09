@@ -38,4 +38,4 @@ Este projeto tem como objetivo ser usado como aprendizado para novos estudos rel
 ## Links interessantes
 - [CI/CD + Liquibase](https://www.infoq.com/br/articles/construindo-pipeline-ci-cd-liquibase-no-gitlab/)
 
-## [Change log](CHANGELOG)
+## [Change log](CHANGELOG.md)
