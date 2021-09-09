@@ -9,6 +9,7 @@ Este projeto tem como objetivo ser usado como aprendizado para novos estudos rel
 - Gitlab CD/CI c/ Java Spring Boot
 
 ## Conhecimentos á serem aplicados
+- JPA
 - RESTFull services com json
 - Banco de dados Mysql no Spring
 - APIs documentation (Swagger e/ou Spring REST docs);
