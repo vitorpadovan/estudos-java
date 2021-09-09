@@ -39,3 +39,6 @@ Este projeto tem como objetivo ser usado como aprendizado para novos estudos rel
 - [Editor README.md](https://dillinger.io/)
 
 ## [Change log](CHANGELOG.md)
+
+## Reposítórios deste projeto
+[Gitlab](https://gitlab.com/vitorpadovan/estudos-java)
