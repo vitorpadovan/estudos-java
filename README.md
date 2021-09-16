@@ -36,6 +36,7 @@ Este projeto tem como objetivo ser usado como aprendizado para novos estudos rel
 - [CI/CD + Liquibase](https://www.infoq.com/br/articles/construindo-pipeline-ci-cd-liquibase-no-gitlab/)
 - [Travis CI](https://www.travis-ci.com/)
 - [DocToc](https://github.com/thlorenz/doctoc)
+- [Externalized Configuration](https://docs.spring.io/spring-boot/docs/1.5.6.RELEASE/reference/html/boot-features-external-config.html)
 
 ## Ferramentas
 - [Editor README.md](https://dillinger.io/)
